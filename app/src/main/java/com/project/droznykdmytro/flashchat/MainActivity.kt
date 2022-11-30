@@ -27,17 +27,10 @@ import com.google.firebase.FirebaseApp
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.GoogleAuthProvider
-import com.project.droznykdmytro.flashchat.nav.Destination.Home
 import com.project.droznykdmytro.flashchat.ui.theme.SignInWithGoogleTheme
 import com.project.droznykdmytro.flashchat.view.home.HomeView
 
 
-/**
- * The initial point of the application from where it gets started.
- *
- * Here we do all the initialization and other things which will be required
- * thought out the application.
- */
 class MainActivity : ComponentActivity() {
 
     companion object {

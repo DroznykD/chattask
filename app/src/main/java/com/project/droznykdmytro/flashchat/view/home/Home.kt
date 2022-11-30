@@ -18,12 +18,6 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import com.project.droznykdmytro.flashchat.Constants
 import com.project.droznykdmytro.flashchat.view.SingleMessage
 
-/**
- * The home view which will contain all the code related to the view for HOME.
- *
- * Here we will show the list of chat messages sent by user.
- * And also give an option to send a message and logout.
- */
 
 @Composable
 fun HomeView(
