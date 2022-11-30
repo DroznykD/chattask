@@ -10,9 +10,7 @@ import com.google.firebase.ktx.Firebase
 import com.project.droznykdmytro.flashchat.Constants
 import java.lang.IllegalArgumentException
 
-/**
- * Home view model which will handle all the logic related to HomeView
- */
+
 class HomeViewModel : ViewModel() {
     init {
         getMessages()
